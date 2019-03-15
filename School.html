@@ -60,12 +60,41 @@ footer {
   color: white;
 }
 
+article img {
+  width: 80%;
+  margin: auto;
+}
+
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
 @media (max-width: 600px) {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #AA0000;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #FFCCCC;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #ffb6c1;
+  color: black;
 }
 </style>
 </head>
@@ -89,7 +118,7 @@ footer {
   
   <article>
     <br>
-<img src="school.jpg"width="512" height="342">
+<img src="img/school.jpg">
   </article>
 </section>
 
