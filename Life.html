@@ -63,6 +63,13 @@ footer {
 article img {
   width: 80%;
   margin: auto;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+article img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
